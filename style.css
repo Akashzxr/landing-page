@@ -53,6 +53,16 @@ ul,a{
     color: #1F2937;
 }
 
+.infor-image-sect img{
+   width: 150px;
+   height: 150px;
+   border-style: solid;
+   border-color: #3882F6;
+   border-radius: 10px;
+   margin: 0;
+   padding: 0;
+}
+
 .qoute-section{
     background-color: #E5E7EB;
     color:#1F2937;
@@ -80,6 +90,7 @@ ul,a{
     font-size: 18px;
 }
 /*giving flex property*/
+/*head section*/
 .hero{
  display: flex;
  flex-direction: column;
@@ -123,4 +134,35 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/*information section*/
+.information-head{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.infor-image-sect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+
+.info-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 70px;
+}
+.text{
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 100px;
 }
