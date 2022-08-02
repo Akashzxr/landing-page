@@ -72,6 +72,7 @@ ul,a{
 }
 .qoute-author{
     font-weight: bold;
+    font-size: 25px;
 }
 .signup-sub{
     background-color: #3882F6;
@@ -165,4 +166,48 @@ ul{
     flex-direction: column;
     gap: 40px;
     padding-bottom: 100px;
+}
+/*qoute section*/
+.qoute{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-top: 88px;
+}
+.qoute p{
+    width: 900px;
+
+}
+.qoute-section{
+    display: flex;
+    flex-direction: column;
+    height: 403px;
+}
+.qoute-author{
+    align-self: flex-end;
+    padding-right: 50px;
+}
+/*signup section*/
+.signup-text-sec{
+    display: flex;
+    flex-direction: column;
+
+}
+.signup-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 10px;
+    width: 800px;
+}
+.signup-section{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
