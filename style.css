@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+body{
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+}
+
+.secondary-text,.main-image,.header-right,.signup-text,.footer,a{
+    color: #E5E7EB;
+}
+
+.hero,.footer{
+ background-color: #1F2937;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul,a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.head-signup{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border:none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.main-image{
+    background-color: grey;
+}
+
+.information-head{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.qoute-section{
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.qoute-author{
+    font-weight: bold;
+}
+.signup-sub{
+    background-color: #3882F6;
+}
+.sihnup-head{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.signup-2{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 18px;
+}
